@@ -1,8 +1,11 @@
 #include<stdio.h>
+#include<unistd.h>
 int main(){
-int n;
-printf("enter number");
-scanf("%d",&n);
-printf("%d\n", n>9 , n<100);
-return 0;
+    int i;
+    for(i=1;i<=150;i++){
+        printf("JAY SHREE SHYAM\n");
+        fflush(stdout);
+        usleep(330000);
+    }
+    return 0;
 }
