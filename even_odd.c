@@ -1,12 +1,10 @@
 #include<stdio.h>
 int main(){
-    int a,b;
-    printf("enter two number ");
-    scanf("%d%d",&a,&b);
-    if (a>b)
-       printf("a is maxium, %d\n");
-    else
-       printf("b is maxium,%d\n");
-    
+    //evan -> 1
+    //odd -> 0
+    int n;
+    printf("enter a number ");
+    scanf("%d",&n);
+    printf("%d",n % 2== 0);    
     return 0;
 }
